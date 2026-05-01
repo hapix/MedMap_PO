@@ -43,6 +43,26 @@ MedMap:
 
 The goal is not just to find a similar name. The goal is to preserve the important medical details behind the medicine.
 
+## 🔄 User Flow
+
+```mermaid
+flowchart TD
+    A[User or clinician asks for a medicine equivalent] --> B[Provide source country, destination country, and drug query]
+    B --> C[MCP server resolves the source medicine]
+    C --> D[Extract ingredient, ATC, dosage, form, and access information]
+    D --> E[Search destination country dataset or API]
+    E --> F{Trusted ATC available?}
+    F -- Yes --> G[Match by ATC first]
+    F -- No --> H[Fall back to ingredient-based matching]
+    G --> I[Refine by dosage and form]
+    H --> I
+    I --> J[Rank the best equivalents]
+    J --> K[Build simple user summary]
+    J --> L[Build detailed technical output]
+    K --> M[Normal user sees practical answer and restriction warning]
+    L --> N[Specialist sees ATC source, match details, and uncertainty notes]
+```
+
 ## 🧭 How It Matches Medicines
 
 MedMap tries to match medicines using the safest available signals:
