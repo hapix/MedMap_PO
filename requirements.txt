@@ -1,0 +1,4 @@
+﻿mcp
+pandas
+starlette
+uvicorn

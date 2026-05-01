@@ -1,0 +1,14 @@
+Italy:
+https://www.aifa.gov.it/web/guest/liste-dei-farmaci
+
+France:
+https://base-donnees-publique.medicaments.gouv.fr/telechargement
+
+UK:
+https://isd.digital.nhs.uk/trud/user/guest/group/0/pack/6/subpack/24/releases
+
+Spain:
+https://sede.aemps.gob.es/datos-abiertos/
+
+Optional convenience bundle:
+https://pub-bfd515f1bc1a4c079a3db731bf46d3d4.r2.dev/Datasets.zip
