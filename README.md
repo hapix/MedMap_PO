@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/Logo_medmap.png" alt="MedMap logo" width="180">
+</p>
 # MedMap
 
 MedMap is a cross-country medicine equivalence engine.
