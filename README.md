@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/Logo_medmap.png" alt="MedMap logo" width="180">
+  <img src="assets/Logo_medmap.png" alt="MedMap logo" width="280">
 </p>
 # MedMap
 
